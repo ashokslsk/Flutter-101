@@ -8,7 +8,7 @@ class Home extends StatelessWidget{
     return  MaterialApp(
         title: "Exploring UI Widgets",
         home: Scaffold(
-          appBar: AppBar(),
+          appBar: AppBar(title: Text("First Flutter"),),
           body: Center(
             child: Container(
                 alignment: Alignment.center,
